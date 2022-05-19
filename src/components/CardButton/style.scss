@@ -1,0 +1,16 @@
+.cardButton{
+  justify-content: center;
+  border-radius: 10;
+  // The only way to add shadow was with important
+  box-shadow: 2px 2px 2px #888888 !important;
+  -webkit-box-shadow: 2px 2px 2px #888888 !important;
+  -moz-box-shadow: 2px 2px 2px #888888 !important;
+  -o-box-shadow: 2px 2px 2px #888888 !important;
+  -ms-box-shadow: 2px 2px 2px #888888 !important;
+  :hover{
+      transform: scale(1.1);
+      cursor: pointer;
+      background-color: transparent !important;
+      border-color: transparent !important;
+  }
+}

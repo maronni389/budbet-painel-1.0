@@ -1,0 +1,495 @@
+@import '../variables/colors.scss';
+
+.ant-card{
+  background-color:rgba(51, 113, 66, 0.9);
+}
+#dividerText{
+  text-align: justify;
+}
+
+.header-externo{
+  background-color: #52c41a;
+  text-align: left;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  height: fit-content;
+
+  .botao-voltar{
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 62px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 500;
+  }
+
+}
+.header-interno{
+  background-color: #feee16;
+  font-size: 16px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.header-interno .titulo{
+  flex-grow:2;
+}
+.botao-busca{
+    background-color: transparent;
+    border: 0px;
+    box-shadow: 0 0 0;
+    color: rgb(0, 0, 0);
+    flex-grow:1;
+    :hover {
+      background-color: transparent !important;
+    }
+}
+.botao{
+    background-color: #feee16;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    
+    width: 300px;
+}
+.ant-layout{
+    background-color: white;
+}
+.entrada, .acesso-entrada{
+    border-radius: 12px;
+    height: 40px;
+}
+.login-form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+.bingoStyle {
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  padding-top: 3px;
+  margin: 5px;
+}
+.ant-tag-close-icon {
+  top: 14px;
+  position: absolute;
+}
+.ant-picker-input > input {
+  text-align: center;
+}
+
+#primarycolor{
+  color: $PRIMARY_COLOR;
+  font-weight: bold;
+}
+
+.ant-alert-close-icon{
+  align-self: flex-start;
+}
+
+.primarycolor{
+  color: $PRIMARY_COLOR;
+  font-weight: bold;
+}
+.dashboard {
+  background-color: $WHITE;
+  box-shadow: 0 4px 8px 0 rgba($SECUNDARY_COLOR, 0.2);
+  border-radius: 8px;
+}
+.title-dashboard{
+  text-align: left;
+  color: $PRIMARY_COLOR !important;
+  padding-top: 6px;
+  padding-left: 4px;
+}
+.cards-dashboard{
+  padding-bottom: 16px;
+}
+.dashboard .ant-table-body{
+  height: 500px;
+  overflow-y: auto;
+}
+.dashboard .ant-table-header{
+  height: 55px;
+  overflow-y: auto;
+}
+.ant-layout-sider-zero-width-trigger {
+  background: $SECUNDARY_COLOR;
+  top: -70px;
+  left: 0px;
+}
+.ant-spin {
+  color: $PRIMARY_COLOR;
+}
+.ant-spin-dot-item {
+  background-color: $PRIMARY_COLOR;
+}
+.ant-table-thead{
+  font-weight: bold;
+}
+
+#publicContent{
+  background-color: transparent;
+}
+
+.bingoStyle {
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  padding-top: 3px;
+  margin: 5px;
+}
+.ant-tag-close-icon {
+  top: 14px;
+  position: absolute;
+}
+.bingoStyleSelected{
+  background-color: transparent;
+}
+.ant-form{
+  margin-top: 30px;
+}
+.ant-table{
+  margin-top: 30px;
+}
+.header-externo{
+  background-color: $PRIMARY_COLOR;
+  text-align: left;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  height: fit-content;
+
+  .botao-voltar{
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 62px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 500;
+  }
+
+}
+.header-interno{
+  background-color: $SECUNDARY_COLOR;
+  font-size: 16px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.header-interno .titulo{
+  flex-grow:2;
+}
+.botao-busca{
+    background-color: transparent;
+    border: 0px;
+    box-shadow: 0 0 0;
+    color: rgb(0, 0, 0);
+    flex-grow:1;
+    :hover {
+      background-color: transparent !important;
+    }
+}
+.botao{
+    background-color: $SECUNDARY_COLOR;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    
+    width: 300px;
+}
+.ant-layout{
+    background-color: $BACKGROUND;
+}
+.entrada, .acesso-entrada{
+    border-radius: 12px;
+    height: 40px;
+}
+.login-form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dividerDepoimento{
+  margin: 14px 0;
+  color: $PRIMARY_COLOR;
+  border-top-color: rgba($PRIMARY_COLOR, 0.5)
+}
+.cloverIcon{
+  fill: 'white';
+}
+#dividerText{
+  color: $PRIMARY_COLOR;
+  margin-bottom: 0px;
+}
+.ant-menu-item .anticon{
+  vertical-align: 0.2em;
+}
+
+.ant-list-items {
+  margin-top: 10px;
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  background-color: $WHITE;
+}
+.dashboard .ant-list-items {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.ant-list-item{
+  background-color: $SECUNDARY_COLOR;
+  border-radius: 10px;
+}
+
+.ant-list-item-meta-title {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 6px;
+  color: $SECUNDARY_COLOR;
+  font-size: 18px;
+}
+.ant-list-item-meta-description {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: $BACKGROUND;
+  font-size: 16px;
+}
+.ant-list-split .ant-list-item {
+  margin-top: 5px;
+  border-bottom: 1px solid $BACKGROUND;
+}
+
+.ant-collapse-borderless{
+    background-color: transparent;
+}
+.ant-layout-header{
+  background-color: $SECUNDARY_COLOR;
+}
+.ant-layout-sider-children{
+  background-color: $SECUNDARY_COLOR;
+  flex-grow: initial;
+  height: 100%;
+}
+.ant-menu{
+  color: white;
+  background-color: $SECUNDARY_COLOR;
+  flex-grow: initial;
+}
+.ant-menu-item:hover,
+.ant-menu-submenu:hover,
+.ant-menu-item-active,
+.ant-menu-submenu-active,
+.ant-menu-item-open,
+.ant-menu-submenu-open,
+.ant-menu-item-selected,
+.ant-menu-submenu-selected {
+  color: $PRIMARY_COLOR;
+  background-color: $SECUNDARY_COLOR;
+}
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after, 
+.ant-menu-vertical-right .ant-menu-item::after, 
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid  $PRIMARY_COLOR;
+}
+.ant-menu .ant-menu-item-selected,
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: $SECUNDARY_COLOR;
+}
+.ant-tabs-tab,
+.ant-tabs-tab-active,
+.ant-tabs-tab-btn {
+  color: $PRIMARY_COLOR;
+  :hover{
+    color: $PRIMARY_COLOR;
+  }
+  :focus{
+    color: $PRIMARY_COLOR;
+  }
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: $PRIMARY_COLOR;
+}
+
+.ant-tabs-ink-bar{
+  background-color: $PRIMARY_COLOR;
+}
+
+.ant-btn-link {
+  color: white;
+}
+
+#formDark {
+  color: $SECUNDARY_COLOR;
+  .ant-form-item-label > label {
+    color: white;
+  }
+}
+#logoutLink {
+  color: $SECUNDARY_COLOR;
+}
+
+
+.ant-form-item-label > label {
+  color: $SECUNDARY_COLOR;
+}
+
+
+.ant-tabs-content-holder {
+  background-color: transparent;
+  padding-top: 16px;
+}
+.depositmenu .ant-tabs-content-holder {
+  background-color: white;
+  padding-top: 16px;
+}
+
+.ant-tabs-nav,
+.ant-tabs-top > .ant-tabs-nav
+{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.ant-checkbox-wrapper {
+  color: white;
+}
+
+.ant-checkbox-inner:hover,
+.ant-checkbox-input:hover,
+.ant-input:hover,
+.ant-input-affix-wrapper:hover {
+  border-color: $PRIMARY_COLOR;
+}
+
+.ant-checkbox-input:focus,
+.ant-checkbox-inner:focus,
+.ant-input:focus,
+.ant-input-affix-wrapper:focus {
+  border-color: $PRIMARY_COLOR;
+}
+
+.ant-input-focused,
+.ant-input-affix-wrapper-focused {
+  border-color: $PRIMARY_COLOR;
+}
+
+.ant-checkbox-checked,
+.ant-checkbox-inner-checked {
+  border-color: $PRIMARY_COLOR;
+  background-color: $PRIMARY_COLOR;
+}
+
+
+.ant-card-head,
+.ant-card-body{
+  background-color: #494D5A;
+}
+
+.siderMenu{
+  margin-top: 2vh;
+  min-height: 88vh;
+}
+
+.nickname,
+.ant-dropdown-open{
+  color: $PRIMARY_COLOR;
+  :hover {
+    color: $PRIMARY_COLOR !important;
+    font-weight: bold;
+  }
+  :active {
+    color: $PRIMARY_COLOR !important;
+    font-weight: bold;
+  }
+  :focus {
+    color: $PRIMARY_COLOR !important;
+    font-weight: bold;
+  }
+}
+a:hover{
+  color: $PRIMARY_COLOR !important;
+  font-weight: bold;
+}
+
+.cardContainer{
+  justify-content: center;
+  border-radius: 10;
+  // The only way to add shadow was with important
+  box-shadow: 2px 2px 2px #888888 !important;
+  -webkit-box-shadow: 2px 2px 2px #888888 !important;
+  -moz-box-shadow: 2px 2px 2px #888888 !important;
+  -o-box-shadow: 2px 2px 2px #888888 !important;
+  -ms-box-shadow: 2px 2px 2px #888888 !important;
+  background-color: $SECUNDARY_COLOR;
+  border-color: $SECUNDARY_COLOR;
+  border-radius: 10px;
+  padding: 10px;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus{
+  background-color: $SECUNDARY_COLOR;
+  border-color: $SECUNDARY_COLOR;
+}
+.ant-btn-primary {
+  background-color: $SECUNDARY_COLOR;
+  border-color: $SECUNDARY_COLOR;
+  :hover{
+    background-color: $SECUNDARY_COLOR;
+    border-color: $SECUNDARY_COLOR;
+  };
+  :focus{
+    background-color: $SECUNDARY_COLOR;
+    border-color: $SECUNDARY_COLOR;
+  };
+  :active{
+    background-color: $SECUNDARY_COLOR;
+    border-color: $SECUNDARY_COLOR;
+  };
+  ::after{
+    background-color: $SECUNDARY_COLOR;
+    border-color: $SECUNDARY_COLOR;
+  };
+}
+
+.ant-btn-icon-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color-white {
+  color: $WHITE;
+}

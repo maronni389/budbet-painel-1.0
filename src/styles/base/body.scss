@@ -1,0 +1,65 @@
+@import '../variables/colors.scss';
+html { 
+  height: 100%;
+  overflow: auto;
+}
+
+@font-face {
+  font-family: 'OpenSans', serif;
+  src: local('OpenSans-Regular'), url(../../assets/Fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+  src: local('OpenSans-Bold'), url(../../assets/Fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
+}
+
+#root {
+  height: 100%;
+  text-align: center;
+  font-family: 'OpenSans-Bold', sans-serif;
+}
+
+#home {
+  font-size: 1em;
+  width: 100%;
+  font-family: 'OpenSans-Bold', sans-serif;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5em;
+}
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vmax;
+  width: 100vmax;
+}
+
+html, body, form, fieldset, table, tr, td, img {
+    margin: 0;
+    padding: 0;
+}
+
+input, button, select, textarea, optgroup, option {
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+body {
+  font-size: 1em;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  font-family: 'OpenSans-Bold', sans-serif;
+
+
+  button:focus {
+    outline:0 !important;
+  }
+
+}
+
